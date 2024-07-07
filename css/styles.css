@@ -1,8 +1,12 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: whitesmoke;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin: 0;
     padding: 0;
+    background-image: url(https://images.unsplash.com/photo-1720265017851-c0e2d2f9c81e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwzNHx8fGVufDB8fHx8fA%3D%3D);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+
 }
 
 .container {
@@ -26,6 +30,8 @@ h2 {
     margin-right: 10px;
     border: 1px solid whitesmoke;
     border-radius: 4px;
+    font-style: italic;
+    font-display:blueviolet;
 }
 
 #addItemBtn, #markPurchasedBtn, #clearListBtn {
